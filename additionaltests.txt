@@ -1,0 +1,1 @@
+program VariableName2 begin 3var := var end 

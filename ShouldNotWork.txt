@@ -1,0 +1,30 @@
+program test begin x := 2 end 
+program t@st begin x := 2 end 
+program 1Test begin x := 2 end 
+program Test begin x := 1.4 end 
+program Test begin 2 := x end 
+program Test begin 1var := 5 end 
+program Test var := 45 end 
+program Test begin var := 3 
+program Test begin vAr3 := 5 + - 3 end 
+program Test begin vAr3 := -3 + 5 end 
+program Test begin var := 5 ; end 
+program Test begin var := 5 ; 6 := varThing end 
+program Test begin end 
+program Test begin read ( 7 ) end 
+program Test begin read ( * ) end 
+program Test begin read ( v@r ) end 
+program Test begin read ( var , 7 ) end 
+program Test begin write ( 5 <= 8 > 4 ) end 
+program Test begin write ( 5 <= 8 , > 4 ) end 
+program Test begin write ( 5 <= 8 , ) end 
+program Test begin write ( 5 <= 8 ) read ( var ) end 
+program Test begin begin x := 10 end 
+program Test begin if 5 < 3 end 
+program Test begin if 5 < 3 then end 
+program Test begin if 5 < 3 then x := 10 else end 
+program Test begin if 5 < 3 then 3 end 
+program Test begin if 5 < 3 else x := 10 end 
+program Test begin while if 5 < 3 then x := 2 do var := 4 end 
+program Test begin while 5 < 3 do end 
+program Test begin while 5 < 3 end 
