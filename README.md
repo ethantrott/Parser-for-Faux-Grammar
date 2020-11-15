@@ -13,7 +13,7 @@ Once you have modified these options to your liking, run parser.py in Python 3.x
 -Ethan
 
 The Grammar: 
-<program> ::= program <progname> <compound stmt>
+```<program> ::= program <progname> <compound stmt>
 <compound stmt> ::= begin <stmt> {; <stmt>} end 
 <stmt> ::= <simple stmt> | <structured stmt> 
 <simple stmt> ::= <assignment stmt> | <read stmt> | <write stmt>
@@ -35,4 +35,4 @@ The Grammar:
 <progname> ::= <capital_letter> { <letter> | <digit> } 
 <capital_letter> ::= A | B | C | ... | Z 
 <letter> ::= a | b | c | ... | z | <capital_letter>
-<digit> ::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 
+<digit> ::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ```
